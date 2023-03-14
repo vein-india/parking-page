@@ -108,7 +108,7 @@
     } */
 
     /* media query */
-    @media only screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
         .landing-text-logo {
             width: 80vw;
             height: auto;
@@ -116,6 +116,17 @@
 
         .landing-text {
             font-size: 32px;
+        }
+    }
+
+    @media screen and (max-height: 800px) {
+        .landing-text-logo {
+            width: 50vw;
+            height: auto;
+        }
+
+        .landing-text {
+            font-size: 36px;
         }
     }
 </style>
